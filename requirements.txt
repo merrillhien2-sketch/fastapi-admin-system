@@ -1,0 +1,16 @@
+# ===== FastAPI 通用后台管理系统依赖 =====
+# 注意：所有版本约束兼容 Python 3.10
+
+fastapi>=0.110,<0.116
+sqlalchemy>=2.0
+pydantic>=2.6
+pydantic-settings
+email-validator
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt>=4.0,<4.1
+python-multipart
+uvicorn[standard]
+loguru
+pytest
+httpx
